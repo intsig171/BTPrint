@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BTPrint_Example' do
+  pod 'BTPrint', :path => '../'
+
+  target 'BTPrint_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
