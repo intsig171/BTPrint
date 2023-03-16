@@ -5,14 +5,7 @@
 //  Created by Mccc on 2021/7/12.
 //
 
-import UIKit
-
-
-
-
 public struct BTPrint { }
-
-
 
 extension BTPrint {
     /// 打印输出
@@ -34,11 +27,11 @@ extension BTPrint {
         
         let sign = "\((file as NSString).lastPathComponent)[\(line)]: \(method)"
         let emjio = type.getEmjio()
-        let content = type.getContent()
+        let value = type.getContent()
         
         
         let ide = identifier.count == 0 ? "" : "[\(identifier)] -> "
-        let allStr = emjio + ide + sign + "\n" + content + "\n"
+        let allStr = "👉👉👉  " + emjio + " " + ide + sign + "\n" + value + "\n"
         Swift.print(allStr)
 #endif
     }
@@ -94,7 +87,7 @@ extension BTPrint {
     private static func transform(_ content: Any) -> PrintContentType {
         
         if let string = content as? String {
-            if let url = URL.init(string: string), UIApplication.shared.canOpenURL(url) {
+            if let _ = URL.init(string: string) {
                 return .url(string)
             } else {
                 return .text(string)
@@ -166,30 +159,30 @@ extension BTPrint.PrintContentType {
     func getEmjio() -> String {
         switch self {
         case .text(_):
-            return "【✏️ String】"
+            return "[✏️ String]"
         case .dictionary(_):
-            return "【📖 Dictionary】"
+            return "[📖 Dictionary]"
         case .array(_):
-            return "【🎢 Array】"
+            return "[🎢 Array]"
         case .color(_):
-            return "【🎨 Color】"
+            return "[🎨 Color]"
         case .url(_):
-            return "【🌏 URL】"
+            return "[🌏 URL]"
         case .error(_):
-            return "【❌ Error】"
+            return "[❌ Error]"
         case .date(_):
-            return "【🕒 Date】"
+            return "[🕒 Date]"
         case .any(_):
-            return "【🎲 Any】"
+            return "[🎲 Any]"
         case .beforeLine(_):
             return "👇 "
         case .afterLine(_):
             return "☝️ "
             
         case .double:
-            return "【Double】"
+            return "[Double]"
         case .int(_):
-            return "【Int】"
+            return "[Int]"
 
         }
     }
@@ -214,9 +207,12 @@ extension BTPrint.PrintContentType {
         case .date(let date):
             return content(date)
         case .dictionary(let dict):
-            return content("\(String(describing: dict as AnyObject))")
+            
+            let temp1 = dict.format()
+            return content(temp1)
         case .array(let arr):
-            return content("\(String(describing: arr as AnyObject))")
+            let temp = arr.format()
+            return content(temp)
         case .beforeLine(let message):
             return content("================\(message)================ ")
         case .afterLine(let message):
@@ -228,4 +224,3 @@ extension BTPrint.PrintContentType {
         }
     }
 }
-

@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047D3D772E8DDA418069EFA573B36BD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		35228E2964B17497FE36A9AC8885D0CC /* Pods-BTPrint_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85320AECE1568B5116A066C0F4ABCBA4 /* Pods-BTPrint_Example-dummy.m */; };
+		46BD19D7708E8AAA015506480ED796A5 /* BTPrint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DBAD07F84DE09F3184F67787689F64 /* BTPrint-dummy.m */; };
 		4718886D877C36EBCD99C9E1CBD8785E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6FE2812C7F5E413F9CF237D4597B7537 /* BTPrint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A848B5ABD707F479A5234779F47D0105 /* BTPrint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CF0FA57E24A1BAE3449E0862BED5F93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B8B9F3A6C2C6902225613CA3C302388E /* BTPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20811C7CDB0EE9A34B1F719855C78B6 /* BTPrint.swift */; };
+		75A9C102F3A707CD1C58A32620CB97FB /* PrintFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59027146F7232CA67906805FE9595672 /* PrintFormat.swift */; };
+		8E181742809C6F03AE51D0F6E52E57DA /* BTPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CBBA950133C027476F9188BF474C4 /* BTPrint.swift */; };
+		9A6CCC7BCACBE8218126670E6B08EF9E /* BTPrint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFEAC513E1ACAC76FC25790CF36DDDA7 /* BTPrint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9402AEB09D4E58983DA154992823AFC /* Pods-BTPrint_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C63E335AB50B0557661748C5D96448 /* Pods-BTPrint_Tests-dummy.m */; };
 		BE480C4BB90665BFFD536C491C4BDAAD /* Pods-BTPrint_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C71C217ABEC7A27A612C0EBF6F2D877B /* Pods-BTPrint_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D487B389AD5AEC521FC9436825AE7E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E821BE30DA3526A3F6FD59A5E02AB482 /* BTPrint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E2CE678531E4114A3B6E7DB95B7C7 /* BTPrint-dummy.m */; };
 		ECE94D56783F745351E724F5E1CD9109 /* Pods-BTPrint_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1249096D4AE471ADA298B34890964A19 /* Pods-BTPrint_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6991B1E76A58F07F1A52286E6FB8C5ED /* PBXContainerItemProxy */ = {
+		971EB3E964DD9307BAE67DBD69402ECD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86A81D2B2BFEFD93197A1D6C3C7EF60A;
 			remoteInfo = BTPrint;
 		};
-		6D634F42F9827F2D74BC1FA772C06F9F /* PBXContainerItemProxy */ = {
+		AD498D28E46DCE819943820B79C35818 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,50 +38,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		065CBBA950133C027476F9188BF474C4 /* BTPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTPrint.swift; path = BTPrint/Classes/BTPrint.swift; sourceTree = "<group>"; };
 		1249096D4AE471ADA298B34890964A19 /* Pods-BTPrint_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTPrint_Example-umbrella.h"; sourceTree = "<group>"; };
 		24139A787FB558821BA29A45F688113E /* Pods-BTPrint_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTPrint_Example-Info.plist"; sourceTree = "<group>"; };
 		2EB27A4679227862B7502D463063B53F /* Pods-BTPrint_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTPrint_Example-frameworks.sh"; sourceTree = "<group>"; };
+		303252B74CFCD7BB44ED1CCB68E91252 /* BTPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTPrint.debug.xcconfig; sourceTree = "<group>"; };
 		3DC3DD340F6691A5AC5273BC6BEFE208 /* Pods-BTPrint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTPrint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		49D88834D9D7060220D1AD1552F3C694 /* Pods-BTPrint_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BTPrint_Example"; path = Pods_BTPrint_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F9BC9E915A74EF3B4037C02D2A9C3E5 /* BTPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTPrint.release.xcconfig; sourceTree = "<group>"; };
+		59027146F7232CA67906805FE9595672 /* PrintFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrintFormat.swift; path = BTPrint/Classes/PrintFormat.swift; sourceTree = "<group>"; };
+		5B76910464A8361C207EC9D6D4D1A3D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		63D6FCCD448B91FE5083D3C830B09E34 /* BTPrint */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTPrint; path = BTPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B4A49C2A97B092D4C327C1C3950F51 /* Pods-BTPrint_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTPrint_Tests-Info.plist"; sourceTree = "<group>"; };
 		656EA5A1A67E9927AC4639FBD5B40A74 /* Pods-BTPrint_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTPrint_Example.modulemap"; sourceTree = "<group>"; };
 		6DC39F2850C04E2B08794C79A252F215 /* Pods-BTPrint_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTPrint_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7253A62479BB02496E4E30C1D5567C84 /* BTPrint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTPrint-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		733FEEDA8264CA2303B20C9D1340E6F7 /* Pods-BTPrint_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BTPrint_Tests"; path = Pods_BTPrint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C63E335AB50B0557661748C5D96448 /* Pods-BTPrint_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTPrint_Tests-dummy.m"; sourceTree = "<group>"; };
-		7B855E5F1D2CF32C7CB7F143E2EE22CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		79A6C0830B031E81EAADAD56D1E2D2B5 /* BTPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTPrint.release.xcconfig; sourceTree = "<group>"; };
 		8430285C639FEC04545DB4324EB46AAE /* Pods-BTPrint_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTPrint_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		85320AECE1568B5116A066C0F4ABCBA4 /* Pods-BTPrint_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTPrint_Example-dummy.m"; sourceTree = "<group>"; };
-		89A3A8BF706AC85652B3514254DB197F /* BTPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTPrint.debug.xcconfig; sourceTree = "<group>"; };
 		8F2249945C818904979C497A03CC213C /* Pods-BTPrint_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTPrint_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A44A6DFB3C57C38C60B2501C127373 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F7E2CE678531E4114A3B6E7DB95B7C7 /* BTPrint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTPrint-dummy.m"; sourceTree = "<group>"; };
-		A848B5ABD707F479A5234779F47D0105 /* BTPrint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTPrint-umbrella.h"; sourceTree = "<group>"; };
+		933326FAB0832C016BD9FC8650832AAD /* BTPrint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTPrint-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2DBAD07F84DE09F3184F67787689F64 /* BTPrint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTPrint-dummy.m"; sourceTree = "<group>"; };
 		B4AE2B663B59DC483B3CE83D631B6048 /* Pods-BTPrint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTPrint_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B8C5679A089F7A8D4477060625E5F897 /* BTPrint.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTPrint.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C20811C7CDB0EE9A34B1F719855C78B6 /* BTPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTPrint.swift; path = BTPrint/Classes/BTPrint.swift; sourceTree = "<group>"; };
+		BD830FBED16433D9EA2BC5AB2C053FCA /* BTPrint-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTPrint-Info.plist"; sourceTree = "<group>"; };
 		C71C217ABEC7A27A612C0EBF6F2D877B /* Pods-BTPrint_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTPrint_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C8A56E78CC9AC7BABAB6D8E8963EEB7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D00B8125DA7770A970BA0577F14F899D /* Pods-BTPrint_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTPrint_Tests.modulemap"; sourceTree = "<group>"; };
-		D8FB404B59FC76F32C834C09AE40EB4B /* BTPrint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTPrint.modulemap; sourceTree = "<group>"; };
+		DB4F63AD5D368039E69E87E07595D4DA /* BTPrint.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BTPrint.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		DF426F28F74B43D8E7F29BAF197363CD /* Pods-BTPrint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTPrint_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EA000CE25132976F52B9893F90608919 /* BTPrint-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTPrint-Info.plist"; sourceTree = "<group>"; };
+		E533CD0BC6029E07B4EA9BB909B7F89E /* BTPrint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTPrint.modulemap; sourceTree = "<group>"; };
+		EFEAC513E1ACAC76FC25790CF36DDDA7 /* BTPrint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTPrint-umbrella.h"; sourceTree = "<group>"; };
 		F97B1622B8CD7F7A3406620B7C7A10C7 /* Pods-BTPrint_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTPrint_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FDF06C3AA75FBFCB86BD3B949981CD8B /* Pods-BTPrint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTPrint_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3C3AC73E3364316E75B3D71E12124FAC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CF0FA57E24A1BAE3449E0862BED5F93 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		682564A4E0282187947BD4510F68E84D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,6 +88,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D487B389AD5AEC521FC9436825AE7E5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39AEC1BA56DD8D6C15CBBAF9A77DA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D3D772E8DDA418069EFA573B36BD2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,12 +128,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		20FEBDFDA4F8F087AF9527837DF315DD /* Development Pods */ = {
+		328360037B5EFE03376C5E1DBC30C297 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B878B2313D635CF8DABE9C7BD44B2DB2 /* BTPrint */,
+				DB4F63AD5D368039E69E87E07595D4DA /* BTPrint.podspec */,
+				5B76910464A8361C207EC9D6D4D1A3D0 /* LICENSE */,
+				C8A56E78CC9AC7BABAB6D8E8963EEB7D /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -152,21 +156,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7903370B93B37FEC7C96F1D0C17CA9BE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8FB404B59FC76F32C834C09AE40EB4B /* BTPrint.modulemap */,
-				9F7E2CE678531E4114A3B6E7DB95B7C7 /* BTPrint-dummy.m */,
-				EA000CE25132976F52B9893F90608919 /* BTPrint-Info.plist */,
-				7253A62479BB02496E4E30C1D5567C84 /* BTPrint-prefix.pch */,
-				A848B5ABD707F479A5234779F47D0105 /* BTPrint-umbrella.h */,
-				89A3A8BF706AC85652B3514254DB197F /* BTPrint.debug.xcconfig */,
-				4F9BC9E915A74EF3B4037C02D2A9C3E5 /* BTPrint.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BTPrint";
-			sourceTree = "<group>";
-		};
 		7E8B37963A5232DFE3B039CC7627F11B /* Pods-BTPrint_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,36 +172,50 @@
 			path = "Target Support Files/Pods-BTPrint_Tests";
 			sourceTree = "<group>";
 		};
-		80603CDDA5AF8FB9F38602F18C25A7B2 /* Pod */ = {
+		9052F32A3740F77F32C85711DB01C1AF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B8C5679A089F7A8D4477060625E5F897 /* BTPrint.podspec */,
-				93A44A6DFB3C57C38C60B2501C127373 /* LICENSE */,
-				7B855E5F1D2CF32C7CB7F143E2EE22CD /* README.md */,
+				D096751314FC7FA02F36D6BEA035512F /* BTPrint */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B878B2313D635CF8DABE9C7BD44B2DB2 /* BTPrint */ = {
+		B52253B5972FA217B1DDD6EC4C55A2E5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C20811C7CDB0EE9A34B1F719855C78B6 /* BTPrint.swift */,
-				80603CDDA5AF8FB9F38602F18C25A7B2 /* Pod */,
-				7903370B93B37FEC7C96F1D0C17CA9BE /* Support Files */,
+				E533CD0BC6029E07B4EA9BB909B7F89E /* BTPrint.modulemap */,
+				A2DBAD07F84DE09F3184F67787689F64 /* BTPrint-dummy.m */,
+				BD830FBED16433D9EA2BC5AB2C053FCA /* BTPrint-Info.plist */,
+				933326FAB0832C016BD9FC8650832AAD /* BTPrint-prefix.pch */,
+				EFEAC513E1ACAC76FC25790CF36DDDA7 /* BTPrint-umbrella.h */,
+				303252B74CFCD7BB44ED1CCB68E91252 /* BTPrint.debug.xcconfig */,
+				79A6C0830B031E81EAADAD56D1E2D2B5 /* BTPrint.release.xcconfig */,
 			);
-			name = BTPrint;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BTPrint";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				20FEBDFDA4F8F087AF9527837DF315DD /* Development Pods */,
+				9052F32A3740F77F32C85711DB01C1AF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				6154581FF0B965E16D8EEB06A9873CDC /* Products */,
 				0B1CCBD3DF36E874D262A91F5F61BAEB /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D096751314FC7FA02F36D6BEA035512F /* BTPrint */ = {
+			isa = PBXGroup;
+			children = (
+				065CBBA950133C027476F9188BF474C4 /* BTPrint.swift */,
+				59027146F7232CA67906805FE9595672 /* PrintFormat.swift */,
+				328360037B5EFE03376C5E1DBC30C297 /* Pod */,
+				B52253B5972FA217B1DDD6EC4C55A2E5 /* Support Files */,
+			);
+			name = BTPrint;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -242,11 +245,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A92FAFAEC2ED3EA07143C93E9D70926 /* Headers */ = {
+		602AD1375BC1EEAE3102801EB5811106 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE2812C7F5E413F9CF237D4597B7537 /* BTPrint-umbrella.h in Headers */,
+				9A6CCC7BCACBE8218126670E6B08EF9E /* BTPrint-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +268,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D3238C981517D676FBE3082FD05A66C6 /* PBXTargetDependency */,
+				0FB74926CE89CBE5D3E9B58446AA579D /* PBXTargetDependency */,
 			);
 			name = "Pods-BTPrint_Example";
 			productName = Pods_BTPrint_Example;
@@ -274,12 +277,12 @@
 		};
 		86A81D2B2BFEFD93197A1D6C3C7EF60A /* BTPrint */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4541AF6F9A7569C6EACE151D59CDC206 /* Build configuration list for PBXNativeTarget "BTPrint" */;
+			buildConfigurationList = D7119D7A8BDBCCBABD7051B90C53F405 /* Build configuration list for PBXNativeTarget "BTPrint" */;
 			buildPhases = (
-				5A92FAFAEC2ED3EA07143C93E9D70926 /* Headers */,
-				A76E254588606D2BA135673FEAE40DFE /* Sources */,
-				3C3AC73E3364316E75B3D71E12124FAC /* Frameworks */,
-				FA9B0DCA1181B8FF5299C2B3E0DEB454 /* Resources */,
+				602AD1375BC1EEAE3102801EB5811106 /* Headers */,
+				EDAA79AE4398595E4B26E0E649205FCB /* Sources */,
+				E39AEC1BA56DD8D6C15CBBAF9A77DA2E /* Frameworks */,
+				309E6D99CF592827D0313395BFE254BA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +305,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				871DEBE5FBB251BD8577FF573D0C1C0D /* PBXTargetDependency */,
+				DA947EDDAD34D4C8E5F7709EDD48925B /* PBXTargetDependency */,
 			);
 			name = "Pods-BTPrint_Tests";
 			productName = Pods_BTPrint_Tests;
@@ -339,6 +342,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		309E6D99CF592827D0313395BFE254BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6197C73F62FF471B90C9706AF53CCF20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,13 +357,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F9B0DD0F2042FF01D2C3C53EC298C268 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA9B0DCA1181B8FF5299C2B3E0DEB454 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,12 +374,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A76E254588606D2BA135673FEAE40DFE /* Sources */ = {
+		EDAA79AE4398595E4B26E0E649205FCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B9F3A6C2C6902225613CA3C302388E /* BTPrint.swift in Sources */,
-				E821BE30DA3526A3F6FD59A5E02AB482 /* BTPrint-dummy.m in Sources */,
+				8E181742809C6F03AE51D0F6E52E57DA /* BTPrint.swift in Sources */,
+				46BD19D7708E8AAA015506480ED796A5 /* BTPrint-dummy.m in Sources */,
+				75A9C102F3A707CD1C58A32620CB97FB /* PrintFormat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,56 +395,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		871DEBE5FBB251BD8577FF573D0C1C0D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-BTPrint_Example";
-			target = 0B5E1B6A17C42EF272F1D7334F8FCDEB /* Pods-BTPrint_Example */;
-			targetProxy = 6D634F42F9827F2D74BC1FA772C06F9F /* PBXContainerItemProxy */;
-		};
-		D3238C981517D676FBE3082FD05A66C6 /* PBXTargetDependency */ = {
+		0FB74926CE89CBE5D3E9B58446AA579D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BTPrint;
 			target = 86A81D2B2BFEFD93197A1D6C3C7EF60A /* BTPrint */;
-			targetProxy = 6991B1E76A58F07F1A52286E6FB8C5ED /* PBXContainerItemProxy */;
+			targetProxy = 971EB3E964DD9307BAE67DBD69402ECD /* PBXContainerItemProxy */;
+		};
+		DA947EDDAD34D4C8E5F7709EDD48925B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BTPrint_Example";
+			target = 0B5E1B6A17C42EF272F1D7334F8FCDEB /* Pods-BTPrint_Example */;
+			targetProxy = AD498D28E46DCE819943820B79C35818 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2E9DCC45CC0A2F5E5D2CF6F9DA0F9C3C /* Release */ = {
+		0E2A84CAADBDBB465607A654402858D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F9BC9E915A74EF3B4037C02D2A9C3E5 /* BTPrint.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BTPrint/BTPrint-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BTPrint/BTPrint-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BTPrint/BTPrint.modulemap";
-				PRODUCT_MODULE_NAME = BTPrint;
-				PRODUCT_NAME = BTPrint;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		59444D61EFEAE13E9A6D68773658D907 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89A3A8BF706AC85652B3514254DB197F /* BTPrint.debug.xcconfig */;
+			baseConfigurationReference = 303252B74CFCD7BB44ED1CCB68E91252 /* BTPrint.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -592,8 +564,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -631,6 +602,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		C4CF3F39D9BA793A77B1D8F659C33B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A6C0830B031E81EAADAD56D1E2D2B5 /* BTPrint.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTPrint/BTPrint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTPrint/BTPrint-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTPrint/BTPrint.modulemap";
+				PRODUCT_MODULE_NAME = BTPrint;
+				PRODUCT_NAME = BTPrint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -743,15 +746,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4541AF6F9A7569C6EACE151D59CDC206 /* Build configuration list for PBXNativeTarget "BTPrint" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				59444D61EFEAE13E9A6D68773658D907 /* Debug */,
-				2E9DCC45CC0A2F5E5D2CF6F9DA0F9C3C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -766,6 +760,15 @@
 			buildConfigurations = (
 				A2F2B7E0BB025B392E1712DC66C12C1F /* Debug */,
 				5B42DD6E3CEA61CDAB1238B31B645B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7119D7A8BDBCCBABD7051B90C53F405 /* Build configuration list for PBXNativeTarget "BTPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2A84CAADBDBB465607A654402858D4 /* Debug */,
+				C4CF3F39D9BA793A77B1D8F659C33B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
